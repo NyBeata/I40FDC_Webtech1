@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #198754;
+    height: 50px; 
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #D0F7D0;
+    padding: 20px;
+}
+
+.card header{
+    align-items: center;
+}
+
+.logo-box{
+    display: flex;
+}
+
+#logo {
+    width: 200px;
+    height: 135px;
+}
