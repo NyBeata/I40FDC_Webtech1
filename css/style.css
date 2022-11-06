@@ -2,42 +2,92 @@
     box-sizing: border-box;
 }
 
+@font-face { 
+    font-family: TanoheSans; src: url(../font/TanoheSans-Regular.ttf);
+} 
+
+.text {
+    font-family: TanoheSans;
+    padding: 20px 8%;
+}
+
+.home-header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/header_bg.jpg");
+    background-position: center;
+    background-size: size;
+}
+
 body {
-    background-image: url("../images/background.png");
+    background-image: url("../images/bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: TanoheSans !important;
 }
 
 h1 {
-    color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold !important;
 }
 
-h2 {
-    color: black;
+.logo{
+    width: 250px;
+    margin: 10px 0;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 0;
     text-align: center;
 }
 
-.navbar {
-    background-color: #198754;
-    height: 50px; 
+nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 8%;
+    background: #198754;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.container {
-    margin-top: 20px;
-    background-color: #D0F7D0;
-    padding: 20px;
+nav ul{
+    background: #198754;
+    width: 100%;
+    margin-top: 10px;
 }
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.carousel{
+    height:100vh;
+    width:100%;
+    }
 
 .card header{
     align-items: center;
 }
 
-.logo-box{
-    display: flex;
+.section-header{
+    background-color: #198754;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
 }
 
-#logo {
-    width: 200px;
-    height: 135px;
+.thumbnail{
+    width: 168px;
+    height: 210px;
 }
+
+

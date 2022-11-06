@@ -1,0 +1,10 @@
+dlc	name	biomes	fence grade	land area	water area	deep water area	climbing area	temperature	group size	male bachelor	fem. bachelor
+
+Australia	Red Kangaroo	Desert, Grassland	Grade 3 (>3m)	180 m²	0 m²	0 m²	0 m²	12-40 °C	2-10 (up to 1 male, up to 9 female)	2-4	2-10	
+Australia	Dingo	Desert, Grassland	Grade 2 (>1.25m)	1162 m²	0 m²	0 m²	0 m²	8-43 °C	2-12 (up to 12 males, up to 12 females)	2-12	2-12
+Australia	Southern Cassowary	Tropical	Grade 2 (>1.8m)	400 m²	0 m²	0 m²	0 m²	12-40 °C	1-2 (up to 1 male, up to 1 female)	1	1
+Australia	Koala	Tropical, Temperate	Grade 1 Climb Proof (>1m)	180 m²	0 m²	0 m²	20 m²	8-42 °C	1-4 (up to 1 male, up to 3 females)	1-3	1-4
+Twilight	Raccoon	Aquatic, Temperate, Taiga, Grassland, Tropical	Grade 2 Climb Proof (>3m)	210 m²	10 m²	0 m²	20 m²	-9-42 °C	2-5 (up to 2 males, up to 3 females)	2-4	2-10
+Twilight	Red Fox	Temperate, Taiga, Grassland, Desert, Tundra	Grade 2 (>3m)	250 m²	0 m²	0 m²	0 m²	-13-43 °C	1-14 (up to 13 males, up to 13 females)	1-14	1-14
+Twilight	Common Wombat	Temperate, Grassland	Grade 2 (>1m)	225 m²	0 m²	0 m²	0 m²	-4-38 °C	1-2 (up to 1 male, up to 1 female)	1	1
+Twilight	Striped Skunk	Temperate, Grassland, Taiga	Grade 1 (>1.25)	180 m²	0 m²	0 m²	0 m²	-7-38 °C	1-2 (up to 1 male, up to 1 female)	1-2	1
