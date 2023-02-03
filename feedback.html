@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title>Planet Zoo Wiki</title>
+<meta name="description" content="Information about Planet Zoo animals">
+<meta name="author" content="Nyíri Beáta">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="javascript/main.js"></script>
+<script src="javascript/feedback.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="shortcut icon" href="images/logo.ico" />
+</head>
+
+<body>
+
+  <div class="header">
+    <nav id="navbar">
+        <img src="images/title.png" class="logo">
+        <ul id="menu">
+            <li><a class="nav-link" href="home.html">HOME</a></li>
+            <li><a class="nav-link" href="infos.html?dlc=Australia">AUSTRALIA</a></li>
+            <li><a class="nav-link" href="infos.html?dlc=Twilight">TWILIGHT</a></li>
+            <li><a class="nav-link" href="feedback.html">FEEDBACK</a></li>
+        </ul>
+    </nav>
+  </div>
+
+    <!--<iframe id="habitatAnimals" src="animals/habitat.txt" ></iframe>-->
+
+    <!--Dropdowns-->
+    <div class="container bg-light mt-2 p-5">
+        <div style="width: 500px" class="mx-auto" id="feedbackForm">
+            <h1>Küld visszajelzést!</h1>
+
+            <label>Mennyire vagy elégedett az oldallal?</label>
+            <select name="rating" class="form-control custom-select" style="width: 300px">
+                <option >Teljesen meg vagyok elégedve :D</option>
+                <option >Nem tökéletes, de teljesen jó :)</option>
+                <option >Nem rossz, de lehetne jobb :|</option>
+                <option >Nem olyan jó :/</option>
+                <option >Ennél rosszabb nem is lehetne :(</option>
+            </select>
+            <div class="form-group">
+                <label for="comment">Megjegyzés:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <div style="height: 30px; margin-top: 10px;">
+                <button id="add" class="btn btn-secondary" onclick="feedbackSent()">Küldés</button>
+                <label id="empty" class="text-danger mx-3 d-none">Kérlek, írj valamit! :'(</label>
+            </div>
+        </div>
+
+        <div id="feedbackThanks" class="d-none">
+            <h1>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Köszönöm a visszajelzést! ✧ﾟ･: *ヽ(◕ヮ◕ヽ)</h1>
+        </div>
+
+      </div>
+
+    </div>
+      
+  </body>
+  </html>

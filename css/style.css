@@ -8,7 +8,7 @@
 
 .text {
     font-family: TanoheSans;
-    padding: 20px 8%;
+    margin: 20px 8%;
 }
 
 .home-header{
@@ -90,4 +90,8 @@ nav ul li{
     height: 210px;
 }
 
+.fieldHeader{
+    font-weight: bold;
+    color: #198754;
+}
 
